@@ -6,7 +6,7 @@ const port = 80;
 // Express specific stuff
 app.use('/static',express.static('static')); // For serving static file
 
-
+ 
 // Pug specific stuff
 app.set('view engine','pug'); // Set the template engine as pug
 app.set('views',path.join(__dirname,'views')); //Set the views directory
